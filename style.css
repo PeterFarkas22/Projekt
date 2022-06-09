@@ -1,0 +1,68 @@
+header {
+    background-color: black;
+}
+
+.main_title {
+    text-align: center;
+}
+
+body {
+    margin: 0%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: auto, auto, auto, auto, auto, auto;
+    grid-template-rows: auto;
+    text-align: center;
+}
+
+nav {
+    background-color: black;
+}
+
+.nav-item {
+    border-style: solid;
+    border-color: white;
+}
+
+main {
+    text-align: center;
+}
+
+p {
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+ul {
+    color: white;
+    list-style: none;
+}
+
+.deathStarOne {
+    width: 2px;
+    height: 2px;
+}
+
+table, th, td {
+    color: white;
+    border: 1px solid white;
+}
