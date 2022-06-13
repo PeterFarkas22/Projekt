@@ -25,11 +25,20 @@ a {
 
 nav {
     background-color: black;
+    top: 0px;
+    position: sticky;
 }
 
 .nav-item {
     border-style: solid;
     border-color: white;
+    transition: 0.5s;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px white;
+}
+
+.nav-item:hover {
+    background-color: gray;
 }
 
 main {
@@ -38,6 +47,7 @@ main {
 
 p {
     color: white;
+    line-height: 1.6;
 }
 
 body {
@@ -55,6 +65,7 @@ h2 {
 ul {
     color: white;
     list-style: none;
+    font-style: italic;
 }
 
 .deathStarOne {
@@ -65,4 +76,32 @@ ul {
 table, th, td {
     color: white;
     border: 1px solid white;
+    padding: auto;
+    word-spacing: auto;
+}
+
+#page_text {
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+hr {
+    width: 500px;
+    color: white;
+}
+
+.grid-container {
+    text-align: center;
+    color: white;
+    border-spacing: auto;
+    gap: 3px;
+}
+
+main {
+    justify-content: center;
+}
+
+.ds2 {
+    display: inline;
+    text-align: center;
 }
